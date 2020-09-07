@@ -1,5 +1,10 @@
+import random
 def main():
-  print('You rolled a die')
+  first=1
+  last=6
+
+  roll=random.randint(first, last)
+  print(f'You rolled a {roll}')
 
 if __name__== "__main__":
   main()
